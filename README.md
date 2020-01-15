@@ -11,3 +11,5 @@ https://medium.com/swlh/painless-fine-tuning-of-bert-in-pytorch-b91c14912caa
 Voilà un exemple de fine tuning de BERT avec transformers.
 
 Il y a également un exemple de fine tuning de Squad dans la documentation de transformers. Ca peut vous donner des idées.
+
+https://github.com/huggingface/transformers/blob/master/examples/run_squad.py
