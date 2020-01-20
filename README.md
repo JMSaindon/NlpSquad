@@ -13,3 +13,6 @@ Voilà un exemple de fine tuning de BERT avec transformers.
 Il y a également un exemple de fine tuning de Squad dans la documentation de transformers. Ca peut vous donner des idées.
 
 https://github.com/huggingface/transformers/blob/master/examples/run_squad.py
+
+autre example bert fine tuning
+https://www.pragnakalp.com/nlp-tutorial-setup-question-answering-system-bert-squad-colab-tpu/
