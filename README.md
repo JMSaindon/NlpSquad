@@ -18,3 +18,5 @@ autre example bert fine tuning
 https://www.pragnakalp.com/nlp-tutorial-setup-question-answering-system-bert-squad-colab-tpu/
 
 https://arxiv.org/pdf/1810.04805.pdf
+
+https://mccormickml.com/2019/07/22/BERT-fine-tuning/#1-setup
