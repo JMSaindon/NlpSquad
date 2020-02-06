@@ -17,15 +17,15 @@ The script that fine-tune BERT using the library transformer is: ?????.py
 
 After getting an insight into the challenges that we have to face, we've tried to implement the training and evaluation loops to fine-tune BERT with the SQuAD 2.0 dataset. We've analyzed the script given by the library transformers, I we've attempted to recreate a fine-tuning more adapted to our needs. These are the steps that we've followed to fine-tune BERT.
 
-    Download the SQuAD 2.0 dataset (json files)
-    Transform our dataset into the format that BERT can be trained on by:
-        Applying the BERT tokenizer to our data.
-        Adding special tokens to the start and end of each sentence.
-        Padding & truncating all sentences to a single constant length.
-        Mapping the tokens to their IDs.
-    Load the base model of BERT .
-    Train the BERT model with our SQuAD dataset.
-    Evaluate the model.
+1. Download the SQuAD 2.0 dataset (json files)
+2. Transform our dataset into the format that BERT can be trained on by:
+    ..1. Applying the BERT tokenizer to our data.
+    ..2. Adding special tokens to the start and end of each sentence.
+    ..3. Padding & truncating all sentences to a single constant length.
+    ..4. Mapping the tokens to their IDs.
+3. Load the base model of BERT .
+4. Train the BERT model with our SQuAD dataset.
+5. Evaluate the model.
     
 By using 20000 text-question-answer, the precision of our model was: **47%**
 
