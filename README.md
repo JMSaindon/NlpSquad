@@ -28,13 +28,13 @@ After getting an insight into the challenges that we have to face, we've tried t
 By using 10 000 text-question-answer, the precision of our model was: **49%**
 ![console screenshot](img/eval.PNG)
 
-A save of this model can be find in the directory finetuned_squad_saved_acc_49
+A save of this model can be found in the directory finetuned_squad_saved_acc_49 with our prediction files too
 
 ![console screenshot](img/loss.png)
 
 The script that fine-tunes BERT using the library transformer is: Bert_fine_tune.ipynb
 
-We tried to launch the fine tuning with all the data but it was too long (16-17 hours) and our computer was literaly burning after an hour of it (the train interrupted after an hour resulted in an accuracy of 56%). As our script seem to train well, we think that a full training should give satisfying performances.
+We have tried to launch the fine tuning with all the data but it was too long (16-17 hours) and our computer was literaly burning after an hour of it (the train interrupted after an hour resulted in an accuracy of 56%). As our script seem to train well, we think that a full training should give satisfying performances.
 
 # Resources
 
