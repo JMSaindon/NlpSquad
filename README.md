@@ -9,9 +9,7 @@ The dataset that we will be using is **SQuAD 2.0**. The dataset consist in a ser
 
 We first attempted to run the scripts provided by the transformers library by HuggingFace that fine-tune the base model of BERT in order to train it for Question Answering. We have used a small portion of the SQuAD dataset because our environment's performance didn't allow us to run the training on the whole dataset. (Both the colab and local environment we tried unfortunately ended by crashing)
 
-The final fine-tuned model has a precision of 47 %
-
-The script that fine-tune BERT using the library transformer is: Bert-fine-tune.ipynb
+The script that fine-tunes BERT using the library transformer and run_squad is: Nlp-squad-runner.ipynb
 
 # Implementing the fine-tuning of BERT
 
@@ -27,7 +25,16 @@ After getting an insight into the challenges that we have to face, we've tried t
 4. Train the BERT model with our SQuAD dataset (A reduced version in a first place).
 5. Evaluate the model with the dev file provided by the website of Squad V2.
     
-By using 10 000 text-question-answer, the precision of our model was: **47%**
+By using 10 000 text-question-answer, the precision of our model was: **49%**
+![console screenshot](img/eval.PNG)
+
+A save of this model can be find in the directory finetuned_squad_saved_acc_49
+
+![console screenshot](img/loss.png)
+
+The script that fine-tunes BERT using the library transformer is: Bert_fine_tune.ipynb
+
+We tried to launch the fine tuning with all the data but it was too long (16-17 hours) and our computer was literaly burning after an hour of it (the train interrupted after an hour resulted in an accuracy of 56%). As our script seem to train well, we think that a full training should give satisfying performances.
 
 # Resources
 
